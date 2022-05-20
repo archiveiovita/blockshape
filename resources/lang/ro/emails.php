@@ -5,7 +5,7 @@ return array (
   array (
     'record' => 
     array (
-      'body' => '<strong>:instructor</strong> a trimis o cerere de alimentatie.
+      'body' => '<strong>:instructor1 </strong> a trimis o cerere de alimentatie.
 <br />
 Pentru a vedea documentul, accesati <a href=":url">urmatorul link</a>',
       'hello' => 'Buna, Administrator!',
