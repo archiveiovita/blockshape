@@ -28,3 +28,5 @@ composer.phar
 /database/migrations
 /database/record
 /database/seeds
+package.json
+package-lock.json

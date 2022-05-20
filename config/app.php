@@ -151,8 +151,6 @@ return [
         App\Providers\RouteServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         Spatie\Glide\GlideServiceProvider::class,
-        Terranet\Administrator\AdministratorServiceProvider::class,
-        Terranet\Restable\RestableServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         App\BMICalculator\BMICalculatorServiceProvider::class,
@@ -209,14 +207,12 @@ return [
         'Html'          => Illuminate\Html\HtmlFacade::class,
         'Form'          => Illuminate\Html\FormFacade::class,
         'GlideImage'    => Spatie\Glide\GlideImageFacade::class,
-        'Restable'      => Terranet\Restable\Facades\Restable::class,
         // Repository Facades
         'Users'         => App\Facades\Users::class,
         'Offices'       => App\Facades\Offices::class,
         'Allergies'     => App\Facades\Allergies::class,
         'Excludes'      => App\Facades\Excludes::class,
         'BMICalculator' => App\Facades\BMICalculator::class,
-        'VbService'     => Terranet\VictoriaBank\VbFacade::class,
         'Helper'       => App\Support\Helper::class,
     ],
 

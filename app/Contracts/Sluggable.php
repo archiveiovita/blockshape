@@ -3,4 +3,6 @@
 interface Sluggable
 {
     public function sluggify();
+
+    public function add();
 }

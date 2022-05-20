@@ -27,6 +27,7 @@ $factory->define(User::class, function ($faker) {
         'password'       => str_random(10),
         'role'           => 'member',
         'active'         => rand(0, 1),
+        'status'         => rand(0, 1),
         'remember_token' => str_random(10),
     ];
 });
