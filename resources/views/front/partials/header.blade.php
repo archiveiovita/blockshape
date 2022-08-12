@@ -35,7 +35,7 @@
             <div class="col-md-2 logo">
                 <a href="{{ route('home') }}"><img src="{{ asset('assets/BS-Logo.png') }}"></a>
             </div>
-            <div class="col-md-7 menu">
+            <div class="col-md-6 menu">
                 <ul>
                     <li><a href="{{ url('/page/about_author') }}">About</a></li>
                     <li><a href="{{ url('/page/subscriptions')  }}">Pricing Plan</a></li>
@@ -46,6 +46,9 @@
             <div class="col-md-3 menu-btns">
                 <a href="{{ route('account') }}" class="account-btn">Cabinet</a>
                 <a href="#" class="cart-btn">{{ Helper::getCartCount() }}</a>
+            </div>
+            <div class="col-md-1">
+                <a href="https://login.blockshape.top/" >Login with Near</a>
             </div>
         </div>
     </div>
